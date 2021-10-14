@@ -1,0 +1,53 @@
+.fit-content{
+    width: fit-content;
+}
+
+.logo span{
+    font-size: 80px;
+}
+
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+
+.rounded-4{
+    border-radius: 2em;
+}
+
+.bluebg{
+    background: url("/media/5559852.jpg");
+    background-attachment: fixed;
+}
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .logo img{
+        width: 50px;
+        height: 50px;
+    }
+    .logo span{
+        font-size: 30px;
+    }
+
+ }
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    
+ }
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    
+ }
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    
+ }
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) { 
+    
+ }
